@@ -13,6 +13,7 @@
 
 body {
     background-color: #F7D346;
+    padding-bottom: 50px;
 }
 
 form {
@@ -87,7 +88,7 @@ aside h2 {
 
 article {
     max-width: 500px;
-    min-width: 300px;
+    min-width: 250px;
     height: fit-content;
     background-color: #F8EC99;
     border: 7px solid #34353e;
@@ -191,6 +192,7 @@ article h3 {
 }
 
 @media only screen and (max-width: 680px) {
+
     form {
         display: flexbox;
         flex-wrap: wrap;
@@ -212,5 +214,9 @@ article h3 {
 
     article {
         margin-top: 20px;
+    }
+
+    section {
+        padding-bottom: 200px;
     }
 }
